@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 :root {
-    --line-border-fill: #3498db;
+    --line-border-fill: #06d6a0;
     --line-border-empty: #e0e0e0;   
 }
 
@@ -77,7 +77,7 @@ body {
     position: relative;
     margin-bottom: 30px;
     max-width: 100%;
-    width: 400px;
+    width: 600px;
 }
 
 .progress-container::before {
