@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <link rel="stylesheet" href="style.css">
-    <title>Expanding Cards</title>
+    <title>Rotating Navigation</title>
 </head>
 
 <header>
@@ -20,7 +20,36 @@
 </header>
 
 <body>
-   
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Dummy Article</h1>
+            <small>Subtitle</small>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores a similique repellendus, veritatis maiores corporis eligendi possimus eveniet numquam quidem et, ab accusamus molestias nobis aperiam fugiat maxime quae magni.</p>
+
+            <h3>Dummy Image</h3>
+            <img src="https://images.unsplash.com/photo-1682684123154-c21854fd90cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80" alt="3d abstract art">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius consequuntur in ea ullam itaque soluta esse, quia possimus ipsam. Rem autem, labore repellendus magnam ipsam eaque dignissimos iure voluptates tempora!</p>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa-user-alt"></i>About</li>
+            <li><i class="fas fa-envelope"></i>Contact</li>
+        </ul>
+    </nav>
+
     <script src="script.js"></script>
 </body>
 </html>
