@@ -63,13 +63,13 @@ body {
 
 .search {
     position: relative;
-    height: 50px;
+    height: 60px;
 }
 
-.search .input{
+.search .input { 
     background-color: white;
     border: 0;
-    font-size: 26px;
+    font-size: 24px;
     padding: 20px;
     height: 60px;
     width: 60px;
@@ -89,11 +89,12 @@ body {
     transition: transform 0.3s ease;
 }
 
-.btn:focus .input:focus {
+.btn:focus, 
+.input:focus {
     outline: none;
 }
 
-.search:active .input {
+.search.active .input {
     width: 240px;
 }
 
