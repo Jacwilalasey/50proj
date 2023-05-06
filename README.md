@@ -7,4 +7,5 @@
 | 02  | [Progress Steps](https://github.com/Jacwilalasey/50proj/tree/main/Progress%20Steps)                               | [Live Demo]()                |
 | 03  | [Rotating Navigation Animation](https://github.com/Jacwilalasey/50proj/tree/main/Rotating%20Navigation)                       | [Live Demo]() |
 | 04  | [Hidden Search Widget](https://github.com/Jacwilalasey/50proj/tree/main/Hidden%20Search%20Widget)                          | [Live Demo]()          |
-| 05  | [Blurry Loading](IN PROGRESS)                               | [Live Demo]()                |
+| 05  | [Blurry Loading](https://github.com/Jacwilalasey/50proj/tree/main/Blurry%20Loading)                               | [Live Demo]()                |
+| 05  | [Scroll Animation](https://github.com/Jacwilalasey/50proj/tree/main/Scroll%20Animation)                               | [Live Demo]()                |
