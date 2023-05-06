@@ -55,8 +55,35 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    flex-direction: column;
     margin: 0;
-    overflow: hidden;
     background-color: hsla(160, 0%, 35%, 1);
 }
+
+h1 {
+    margin: 10px;
+}
+
+.box {
+    background-color: greenyellow;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 250px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(200%);
+    transition: transform 0.5s ease;
+}
+
+.box:nth-of-type(odd) {
+    transform: translateX(-200%);
+}
+
+.box.show {
+    transform: translateX(0);
+}
+
