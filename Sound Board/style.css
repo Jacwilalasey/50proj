@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@200;400&display=swap');
 
 * {
     box-sizing: border-box;
@@ -51,12 +51,25 @@ li a:hover {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    text-align: center;
     height: 100vh;
     margin: 0;
     overflow: hidden;
     background-color: hsla(160, 0%, 35%, 1);
+}
+
+.btn {
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin: 1.25rem;
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+    font-family: inherit;
 }
