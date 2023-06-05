@@ -72,4 +72,13 @@ body {
     padding: 1.5rem 3rem;
     font-size: 2rem;
     font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+.btn:focus {
+    outline: none;
 }
